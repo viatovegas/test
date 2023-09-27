@@ -7,7 +7,7 @@ const text = document.getElementById('bodyText');
 //function構文を使う書き方
 function changeColor(){
   document.body.style.backgroundColor = color.value;
-  text.textContent = color.value;
+  text.textContent = 'カラーコード : ${color.value}';
 }
 
 //アロー関数を使う書き方
