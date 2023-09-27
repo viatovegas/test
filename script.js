@@ -1,7 +1,7 @@
 // JavaScript
 
-const color = document.getElementById('myColor');
-const text = document.getElementById('bodyText');
+const color = document.querySelector('myColor');
+const text = document.querySelector('bodyText');
 
 //背景色を変更する関数
 //function構文を使う書き方
